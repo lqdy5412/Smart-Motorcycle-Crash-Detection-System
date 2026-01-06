@@ -20,8 +20,7 @@ Due to GitHub file size limitations, all test and demonstration videos
 are hosted on Google Drive.
 
 📂 Google Drive Folder:
-[https://drive.google.com/your-link-here](https://drive.google.com/drive/folders/1ulS96GjSZ1J_2S483TlJMYqH88M3Qj-0?usp=sharingAccess is provided in view-only mode.)<img width="468" height="26" alt="image" src="https://github.com/user-attachments/assets/3f640221-19b5-45b7-aa61-898d3aedb1b4" />
-
+https://drive.google.com/drive/folders/1ulS96GjSZ1J_2S483TlJMYqH88M3Qj-0?usp=drive_link
 
 The videos demonstrate:
 - Normal system operation
