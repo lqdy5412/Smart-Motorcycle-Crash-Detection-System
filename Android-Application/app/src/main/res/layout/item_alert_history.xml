@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/cardBg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <!-- Icon/Emoji -->
+        <TextView
+            android:id="@+id/alertIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🚨"
+            android:textSize="24sp"
+            android:layout_marginEnd="1dp"/>
+        <!-- Alert Type Badge -->
+
+
+        <!-- Alert Details -->
+        <TextView
+            android:id="@+id/alertType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:background="@drawable/bg_alert_badge"
+            android:gravity="center"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="4dp"
+            android:text="ACCIDENT"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/alertTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alert Title"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/textDark"/>
+
+            <TextView
+                android:id="@+id/alertDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alert description here..."
+                android:textSize="14sp"
+                android:textColor="@color/textLight"
+                android:layout_marginTop="4dp"/>
+
+            <TextView
+                android:id="@+id/alertTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time: 12:00 PM"
+                android:textSize="12sp"
+                android:textColor="@color/textLight"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+        <!-- Alert Type Badge (Optional - you can remove if not needed) -->
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

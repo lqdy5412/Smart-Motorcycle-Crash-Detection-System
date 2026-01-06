@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:background="@color/pastelLavender"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Alert History"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/textDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"/>
+
+        <TextView
+            android:text="Past alerts from your motorcycle safety system"
+            android:textColor="@color/textLight"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"/>
+
+        <!-- Alert History Container -->
+        <LinearLayout
+            android:id="@+id/alertHistoryContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"/>
+
+        <!-- Empty State -->
+        <TextView
+            android:id="@+id/emptyHistoryText"
+            android:text="No alerts yet. Alerts will appear here when detected."
+            android:textColor="@color/textLight"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:gravity="center"
+            android:background="@drawable/rounded_bg"/>
+
+        <!-- Clear History Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClearHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear All History"
+            android:layout_marginTop="20dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="@android:color/darker_gray"/>
+
+    </LinearLayout>
+</ScrollView>

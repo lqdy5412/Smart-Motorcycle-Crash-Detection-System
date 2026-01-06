@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/alertFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.AlertFragment"
+        android:label="Alert" />
+
+    <fragment
+        android:id="@+id/alertHistoryFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.AlertHistoryFragment"
+        android:label="History" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.SettingsFragment"
+        android:label="Settings" />
+
+    <fragment
+        android:id="@+id/aboutMotorcycleFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.AboutMotorcycleFragment" />
+
+    <fragment
+        android:id="@+id/emergencyContactsFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.EmergencyContactsFragment" />
+
+    <fragment
+        android:id="@+id/systemStatusFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.SystemStatusFragment" />
+
+    <fragment
+        android:id="@+id/alertSoundFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.AlertSoundFragment" />
+
+    <fragment
+        android:id="@+id/testAlertFragment"
+        android:name="com.aya.motorcyclealertreceiver.ui.TestAlertFragment" />
+
+</navigation>

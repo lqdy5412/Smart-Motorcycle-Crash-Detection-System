@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MotorcycleAlertReceiver</string>
+    <string name="motorcycle_emergency_alert">Motorcycle Emergency Alert</string>
+    <string name="check_motorcycle_warning_messages">Check motorcycle warning messages</string>
+    <string name="about_your_motorcycle">About Your Motorcycle</string>
+    <string name="welcome_aya">Welcome, AYA</string>
+    <string name="motorcycle_model_amp_type"><![CDATA[Motorcycle Model & Type]]></string>
+    <string name="add_emergency_contact">➕ Add Emergency Contact</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="saved_contacts">Saved Contacts</string>
+    <string name="no_contacts_added_yet">No contacts added yet</string>
+    <string name="system_status">System Status</string>
+    <string name="let_s_keep_your_motorcycle_safe">Let\'s keep your motorcycle safe 🚀</string>
+    <string name="about_motorcycle">About Motorcycle</string>
+    <string name="change_notification_tone">Change notification tone</string>
+    <string name="permissions_battery_amp_network_status"><![CDATA[Permissions, battery & network status]]></string>
+    <string name="enable_or_disable_alert_notifications">Enable or disable alert notifications</string>
+    <string name="change_rider_name">Change Rider Name</string>
+    <string name="if_an_accident_is_detected_remain_calm_the_system_automatically_sends_your_location_to_emergency_contacts">If an accident is detected, remain calm. The system automatically sends your location to emergency contacts.</string>
+</resources>

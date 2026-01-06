@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- This style will be applied to your main container in dark mode -->
+    <style name="DarkModeBackground">
+        <item name="android:background">@color/darkGrey</item>
+    </style>
+</resources>

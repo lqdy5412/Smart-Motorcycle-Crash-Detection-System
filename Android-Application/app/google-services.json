@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "788032631646",
+    "project_id": "motorcyclealert-fb0b5",
+    "storage_bucket": "motorcyclealert-fb0b5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788032631646:android:0cf1846a4ce1503c5d95cf",
+        "android_client_info": {
+          "package_name": "com.aya.motorcyclealertreceiver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-pNurQvxDcENeqYkJvYfB8deUEJXrGPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
